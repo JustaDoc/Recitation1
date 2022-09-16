@@ -33,7 +33,3 @@ def decrypt(message, password):
         decrypted_ch = alphabet[shifted_ord_of_ch]
         decrypted_message += decrypted_ch
     return decrypted_message
-
-
-#if __name__ == "__main__":
-# print(encrypt('abcdefg', "bcde"))
